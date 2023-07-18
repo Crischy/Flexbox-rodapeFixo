@@ -1,0 +1,32 @@
+/* Rodapé Fixo */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    background-color: brown;
+}
+
+.container main {
+    flex: 1;
+    padding: 0 10px;
+    text-align: left;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1%;
+
+    background-color: burlywood;
+}
+
+
+
+
+
